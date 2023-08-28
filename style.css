@@ -16,16 +16,32 @@ body {
 #nav {
     height: 140px;
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: flex-start;
     gap: 40px;
     padding: 0 79px;
+
+
+
 }
 
 
 #nav img {
     height: 80px;
-    dis
+
+}
+
+#nav h4 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+    z-index: 99;
 }
